@@ -1,6 +1,8 @@
 package prototype.pattern_shallow;
 
 public interface Vehicle {
-    void alert();
+    String alert();
+    String getEngineType();
+    void setEngineType(String engineType);
     Vehicle clone();
 }
